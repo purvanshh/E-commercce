@@ -3,8 +3,6 @@ import ReduxAddToCart from '../ReduxAddToCart';
 import { useRef, useState } from 'react';
 import logo1 from '../../assests/logo1.png';
 function ProductCard({ product }) {
-  var a = 10;
-  a = a + 1;
   let pRef = useRef(0);
   let iRef = useRef(0);
   let oRef = useRef(0);
